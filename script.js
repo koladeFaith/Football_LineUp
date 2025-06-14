@@ -14,6 +14,6 @@ class footballLineUp {
     }
 }
 const addPlayers = () => {
-    let GK = new footballLineUp(names.value, lineUp.value, number.value)
+    let GK = new footballLineUp(names.value, lineup.value, number.value)
     GK.add()
 }
