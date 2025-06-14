@@ -1,70 +1,98 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-  }
-  body {
-    background-color: #f0f4f8;
-    padding: 20px;
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #1e3a8a;
-  }
-  .container {
-    max-width: 900px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  .form-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-  label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #333;
-  }
-  input, select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  .lineup-entry {
-    margin-bottom: 25px;
-  }
-  .pitch {
-    text-align: center;
-    margin-top: 40px;
-  }
-  .pitch img {
-    width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e3a8a;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.lineup-entry {
+  margin-bottom: 25px;
+}
+.pitch {
+    position: relative;
+    width: 100%; /* or a fixed width if you want */
     max-width: 600px;
-    border-radius: 10px;
-    border: 2px solid #1e3a8a;
+    margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.pitch img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid #1e3a8a;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.submit-btn:hover {
+  background-color: #3b82f6;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}  
+  .player {
+    position: absolute;
+    width: 60px;
+    text-align: center;
   }
-  .submit-btn {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  .submit-btn:hover {
-    background-color: #3b82f6;
-  }
+  
+  /* Example positions (adjust as needed) */
+  .GK { top: 85%; left: 45%; }
+  .LB { top: 70%; left: 10%; }
+  .CB { top: 65%; left: 35%; }
+  .RB { top: 70%; left: 80%; }
+  .LCM { top: 50%; left: 25%; }
+  .CM { top: 45%; left: 50%; }
+  .RCM { top: 50%; left: 75%; }
+  .LW { top: 20%; left: 10%; }
+  .ST { top: 10%; left: 50%; }
+  .RW { top: 20%; left: 90%; }
