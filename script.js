@@ -9,11 +9,11 @@ class footballLineUp {
      <div class="flex-container">
     <p class='position' style='color: black; font-size: 15px'> ${this.position || "Position"}
         <p/>
-        <img
+        <img class='img2'
            src="./images/person-2.png" style='width: 35px; border-radius: 20px'
            alt="Player" />
           </div>
-        <p style='color: black; font-size: 15px'> ${this.named || "Name"}  <p/>
+        <p class='name' style='color: black; font-size: 15px'> ${this.named || "Name"}  <p/>
 </div>
 `
     }
