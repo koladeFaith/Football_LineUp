@@ -26,6 +26,8 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 label {
   display: block;
@@ -86,13 +88,22 @@ select {
   }
   
   /* Example positions (adjust as needed) */
-  .GK { top: 85%; left: 45%; }
-  .LB { top: 70%; left: 10%; }
-  .CB { top: 65%; left: 35%; }
-  .RB { top: 70%; left: 80%; }
-  .LCM { top: 50%; left: 25%; }
-  .CM { top: 45%; left: 50%; }
-  .RCM { top: 50%; left: 75%; }
-  .LW { top: 20%; left: 10%; }
-  .ST { top: 10%; left: 50%; }
-  .RW { top: 20%; left: 90%; }
+  .GK { top: 49%; left: 5%; }
+  .RB { top: 73%; left: 25%; }
+  .CB { top: 49%; left: 25%; }
+  .LB { top: 20%; left: 25%; }
+  .LCM { top: 20%; left: 43%; }
+  .CB2{ top: 49%; left: 63%; }
+  .CM { top: 49%; left: 43%; }
+  .RCM { top: 73%; left: 63%; }
+  .LW { top: 20%; left: 63%; }
+  .ST { top: 49%; left: 81%; }
+  .RW { top: 73%; left: 43%; }
+  @media (max-width: 767px) {
+    h1 {
+font-size: 15px;
+    }
+    .position{
+      display: none;
+    }
+  }
