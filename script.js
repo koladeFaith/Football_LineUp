@@ -7,13 +7,13 @@ class footballLineUp {
         show.innerHTML += `
         <div class='player ${this.position}'>
      <div class="flex-container">
-    <p class='position' style='color: black; font-size: 13px'> ${this.position || "Position"}
+    <p class='position' style='color: black; font-size: 18px'> ${this.position || "Position"}
         <p/>
-        <img class='img2'
-           src="./images/person-3.png" style='width: 35px; border-radius: 20px'
-           alt="Player" />
+     <img class='img2'
+     src="./images/person-3.png"
+     alt="Player" />
           </div>
-        <p class='name' style='color: black; font-size: 15px'> ${this.named || "Name"}  <p/>
+        <p class='name'> ${this.named || "Name"}  <p/>
 </div>
 `
     }

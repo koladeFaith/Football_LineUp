@@ -145,10 +145,12 @@ select {
   }
   .name {
     font-size: 10px;
+    word-spacing: -1px;
+    word-break: break-word;
   }
-  .img2 {
-    width: 18px;
-    border-radius: 9px; 
+  .player img {
+    width: 25px;
+    border-radius: 10px; 
   }
   .form-group {
 
@@ -160,15 +162,15 @@ select {
   }
   .RB {
     top: 75%;
-    left: 20%;
+    left: 21%;
   }
   .CB {
     top: 53%;
-    left: 20%;
+    left: 21%;
   }
   .LB {
     top: 25%;
-    left: 20%;
+    left: 21%;
   }
   .LCM {
     top: 25%;
@@ -197,5 +199,14 @@ select {
   .RW {
     top: 75%;
     left: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .player img {
+    width: 35px;
+    border-radius: 10px; 
+  }
+  .name {
+    font-size: 18px;
   }
 }
