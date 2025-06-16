@@ -45,16 +45,16 @@ select {
   border-radius: 5px;
 }
 .lineup-entry {
-   width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 .pitch {
-    position: relative;
-    width: 100%; /* or a fixed width if you want */
-    max-width: 600px;
-    margin: auto;
+  position: relative;
+  width: 100%; /* or a fixed width if you want */
+  max-width: 600px;
+  margin: auto;
   text-align: center;
   margin-top: 20px;
 }
@@ -85,36 +85,116 @@ select {
   justify-content: center;
   align-items: center;
   gap: 5px;
-}  
-  .player {
-    position: absolute;
-    width: 60px;
-    text-align: center;
+}
+.player {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+}
+
+.GK {
+  top: 49%;
+  left: 5%;
+}
+.RB {
+  top: 73%;
+  left: 25%;
+}
+.CB {
+  top: 49%;
+  left: 25%;
+}
+.LB {
+  top: 20%;
+  left: 25%;
+}
+.LCM {
+  top: 20%;
+  left: 43%;
+}
+.CB2 {
+  top: 49%;
+  left: 63%;
+}
+.CM {
+  top: 49%;
+  left: 43%;
+}
+.RCM {
+  top: 73%;
+  left: 63%;
+}
+.LW {
+  top: 20%;
+  left: 63%;
+}
+.ST {
+  top: 49%;
+  left: 81%;
+}
+.RW {
+  top: 73%;
+  left: 43%;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
   }
-  
-  /* Example positions (adjust as needed) */
-  .GK { top: 49%; left: 5%; }
-  .RB { top: 73%; left: 25%; }
-  .CB { top: 49%; left: 25%; }
-  .LB { top: 20%; left: 25%; }
-  .LCM { top: 20%; left: 43%; }
-  .CB2{ top: 49%; left: 63%; }
-  .CM { top: 49%; left: 43%; }
-  .RCM { top: 73%; left: 63%; }
-  .LW { top: 20%; left: 63%; }
-  .ST { top: 49%; left: 81%; }
-  .RW { top: 73%; left: 43%; }
-  @media (max-width: 767px) {
-    h1 {
-font-size: 28px;
-    }
-    .position{
-      display: none;
-    }
-    .name{
-font-size: 8px;
-    }
-    .img2{
-      width: 20px;
-    }
+  .position {
+    display: none;
   }
+  .name {
+    font-size: 2px;
+  }
+  .img2 {
+    width: 20px;
+  }
+  .form-group {
+
+    gap: 5px;
+  }
+  .GK {
+    top: 49%;
+    left: 5%;
+  }
+  .RB {
+    top: 73%;
+    left: 25%;
+  }
+  .CB {
+    top: 49%;
+    left: 25%;
+  }
+  .LB {
+    top: 20%;
+    left: 25%;
+  }
+  .LCM {
+    top: 20%;
+    left: 43%;
+  }
+  .CB2 {
+    top: 49%;
+    left: 63%;
+  }
+  .CM {
+    top: 49%;
+    left: 43%;
+  }
+  .RCM {
+    top: 73%;
+    left: 63%;
+  }
+  .LW {
+    top: 20%;
+    left: 63%;
+  }
+  .ST {
+    top: 49%;
+    left: 81%;
+  }
+  .RW {
+    top: 73%;
+    left: 43%;
+  }
+}
