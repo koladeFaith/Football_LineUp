@@ -144,57 +144,58 @@ select {
     display: none;
   }
   .name {
-    font-size: 2px;
+    font-size: 10px;
   }
   .img2 {
-    width: 20px;
+    width: 18px;
+    border-radius: 9px; 
   }
   .form-group {
 
     gap: 5px;
   }
   .GK {
-    top: 49%;
-    left: 5%;
+    top: 53%;
+    left: 3%;
   }
   .RB {
-    top: 73%;
-    left: 25%;
+    top: 75%;
+    left: 20%;
   }
   .CB {
-    top: 49%;
-    left: 25%;
+    top: 53%;
+    left: 20%;
   }
   .LB {
-    top: 20%;
-    left: 25%;
+    top: 25%;
+    left: 20%;
   }
   .LCM {
-    top: 20%;
-    left: 43%;
+    top: 25%;
+    left: 40%;
   }
   .CB2 {
-    top: 49%;
-    left: 63%;
+    top: 53%;
+    left: 60%;
   }
   .CM {
-    top: 49%;
-    left: 43%;
+    top: 53%;
+    left: 40%;
   }
   .RCM {
-    top: 73%;
-    left: 63%;
+    top: 75%;
+    left: 60%;
   }
   .LW {
-    top: 20%;
-    left: 63%;
+    top: 25%;
+    left: 60%;
   }
   .ST {
-    top: 49%;
-    left: 81%;
+    top: 53%;
+    left: 77%;
   }
   .RW {
-    top: 73%;
-    left: 43%;
+    top: 75%;
+    left: 40%;
   }
 }
